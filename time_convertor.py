@@ -8,7 +8,7 @@ def days_to_units(num_of_days):
     elif num_of_days == 0:
         return "You entered a Zer,kindly enter a positive number"
     else:
-         return "You enetered a negative value,so no conversion for you!"
+         return 'You entered a negative value,so no conversion for you!'
 
 
 user_input = input ( "Hey User,Kindly enter the days you want converted into hours!\n" )
