@@ -6,7 +6,7 @@ def days_to_units(num_of_days):
     if num_of_days > 0:
         return f"{num_of_days} days are {num_of_days * calculation_to_hours} {name_of_unit}"
     elif num_of_days == 0:
-        return "You entered a Zer,kindly enter a positive number"
+        return "You entered a Zero,kindly enter a positive number"
     else:
         return 'You entered a negative value,so no conversion for you!'
 
