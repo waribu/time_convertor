@@ -11,8 +11,10 @@ def days_to_units(num_of_days):
 def validate_and_execute():
     if user_input.isdigit():
         user_input_number = int(user_input)
-        calculated_value = days_to_units(user_input_number)
-        print(calculated_value)
+        if user_input_number > 0:
+            calculated_value = days_to_units(user_input_number)
+            print(calculated_value)
+        elif user_input_number == 0:
     else:
         print("Your input is not a valid number. Don't ruin my program!")
 
